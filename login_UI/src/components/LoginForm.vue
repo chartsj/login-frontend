@@ -10,7 +10,7 @@ const submit = () => {
   errorMessage.value = ''
 
   if (!email.value || !password.value) {
-    errorMessage.value = 'Email and password are required.'
+    errorMessage.value = 'Email and password are required d.'
     return
   }
 
