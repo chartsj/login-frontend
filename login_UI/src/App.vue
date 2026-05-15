@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import LoginForm from './components/LoginForm.vue'
+import LoginForm from './components/CharleneLoginForm.vue'
 </script>
 
 <template>
@@ -10,10 +10,10 @@ import LoginForm from './components/LoginForm.vue'
 
 <style scoped>
 #app {
-  min-height: 100vh;
+  height: 100vh;
   display: grid;
   place-items: center;
-  padding: 2rem;
+  padding: 0rem;
   background: #f0f4f8;
 }
 </style>

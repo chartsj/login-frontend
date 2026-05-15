@@ -7,10 +7,10 @@ const loading = ref(false)
 const errorMessage = ref('')
 
 const submit = () => {
-  errorMessage.value = 'tedddst'
+  errorMessage.value = ''
 
   if (!email.value || !password.value) {
-    errorMessage.value = 'Email and password are required d.'
+    errorMessage.value = 'Email and password are required.'
     return
   }
 
